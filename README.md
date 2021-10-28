@@ -1,7 +1,7 @@
 # azure-terraform
 
-# provider.tf file content as below:
-
+### provider.tf file content as below:
+```
 terraform {
   required_providers {
     azurerm = {
@@ -18,3 +18,4 @@ provider "azurerm" {
   client_id       = "xxxxxxxx"
   features{}
 }
+```
